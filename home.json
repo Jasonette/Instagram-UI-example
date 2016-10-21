@@ -82,7 +82,7 @@
                     "{{#each items}}": {
                       "type": "vertical",
                       "style": {
-                        "background": "#ffffff",
+                        "background": "rgba(255,255,255,0.8)",
                         "padding": "9",
                         "spacing": "13",
                         "width": "90",
