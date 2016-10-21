@@ -73,7 +73,7 @@
                     }
                   }, {
                     "type": "label",
-                    "text": "{{location}}",
+                    "text": "{{location}} >",
                     "style": {
                       "color": "#aaaaaa",
                       "font": "HelveticaNeue",
