@@ -131,7 +131,7 @@
                 "url": "{{content}}"
               }]
             }
-          },
+          }],
           "footer": {
             "tabs": {
               "style": {
