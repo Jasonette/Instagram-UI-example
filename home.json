@@ -37,6 +37,7 @@
               "header": {
                 "type": "horizontal",
                 "style": {
+                  "background": "#ffffff",
                   "padding": "9",
                   "spacing": "13"
                 },
@@ -76,12 +77,12 @@
               },
               "items": [{
                 "type": "vertical",
+                "style": {
+                  "width": "100%",
+                  "padding": "0"
+                },
                 "components": [{
                   "type": "image",
-                  "style": {
-                    "width": "100%",
-                    "padding": "0"
-                  },
                   "url": "{{content}}"
                 }]
               }]
