@@ -1,7 +1,6 @@
 {
   "$jason": {
     "head": {
-      "shy": "true",
       "data": {
         "posts": [{
           "type": "stories",
@@ -61,6 +60,9 @@
       "templates": {
         "body": {
           "header": {
+            "style": {
+              "shy": "true"
+            },
             "title": {
               "type": "image",
               "style": {
@@ -82,7 +84,7 @@
                     "{{#each items}}": {
                       "type": "vertical",
                       "style": {
-                        "background": "rgba(255,255,255,0.8)",
+                        "background": "#fafafa",
                         "padding": "9",
                         "spacing": "13",
                         "width": "90",
