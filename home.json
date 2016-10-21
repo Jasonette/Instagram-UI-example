@@ -76,15 +76,12 @@
                 }]
               },
               "items": [{
-                "type": "horizontal",
                 "style": {
                   "width": "100%",
                   "padding": "0"
                 },
-                "components": [{
-                  "type": "image",
-                  "url": "{{content}}"
-                }]
+                "type": "image",
+                "url": "{{content}}"
               }]
             }
           }
