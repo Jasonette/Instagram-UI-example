@@ -79,7 +79,7 @@
             }]
           }, {
             "{{#each posts}}": {
-              "header": {
+              "items": [{
                 "type": "horizontal",
                 "style": {
                   "background": "#ffffff",
@@ -121,8 +121,7 @@
                     "width": "25"
                   }
                 }]
-              },
-              "items": [{
+              }, {
                 "style": {
                   "width": "100%",
                   "padding": "0"
