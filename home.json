@@ -68,14 +68,16 @@
                     "type": "label",
                     "text": "{{name}}",
                     "style": {
-                      "size": "14"
+                      "font": "HelveticaNeue-Bold",
+                      "size": "12"
                     }
                   }, {
                     "type": "label",
                     "text": "{{location}}",
                     "style": {
                       "color": "#aaaaaa",
-                      "size": "13"
+                      "font": "HelveticaNeue",
+                      "size": "11"
                     }
                   }]
                 }, {
