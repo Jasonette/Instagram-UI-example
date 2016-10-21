@@ -35,6 +35,10 @@
           "header": {
             "title": {
               "type": "image",
+              "style": {
+                "width": "94",
+                "height": "27"
+              },
               "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/logo.png"
             }
           },
