@@ -56,7 +56,7 @@
                     "style": {
                       "size": "14"
                     }
-                  } {
+                  }, {
                     "type": "label",
                     "text": "{{location}}",
                     "style": {
@@ -86,7 +86,7 @@
                 }]
               }]
             }
-          }]
+          }
         }
       }
     }
