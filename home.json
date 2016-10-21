@@ -4,6 +4,34 @@
       "shy": "true",
       "data": {
         "posts": [{
+          "type": "stories",
+          "items": [{
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/barton_avatar.png",
+            "name": "Barton",
+            "location": "Somewhere",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/barton.jpg"
+          }, {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/audrey_avatar.png",
+            "name": "Audrey",
+            "location": "Somewhere",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/audrey.jpg"
+          }, {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/boss_avatar.png",
+            "name": "Audrey",
+            "location": "Somewhere",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/boss.jpg"
+          }, {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/chet_avatar.png",
+            "name": "Chet!",
+            "location": "Somewhere",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/chet.jpg"
+          }, {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/girl_avatar.png",
+            "name": "Girl",
+            "location": "Somewhere",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/girl.jpg"
+          }]
+        }, {
           "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/barton_avatar.png",
           "name": "Barton",
           "location": "Somewhere",
@@ -46,59 +74,93 @@
             }
           },
           "sections": {
-            "{{#each posts}}": {
-              "header": {
-                "type": "horizontal",
-                "style": {
-                  "background": "#ffffff",
-                  "padding": "9",
-                  "spacing": "13"
-                },
-                "components": [{
-                  "type": "image",
-                  "url": "{{avatar}}",
-                  "style": {
-                    "width": "38",
-                    "height": "38",
-                    "corner_radius": "19"
-                  }
-                }, {
-                  "type": "vertical",
-                  "components": [{
-                    "type": "label",
-                    "text": "{{name}}",
-                    "style": {
-                      "font": "HelveticaNeue-Bold",
-                      "size": "12"
+            "{{#each posts}}": [
+              {
+                "{{#if ('type' in this) && type=='horizontal'}}": {
+                  "type": "horizontal",
+                  "items": {
+                    "{{#each items}}": {
+                      "type": "vertical",
+                      "style": {
+                        "background": "#ffffff",
+                        "padding": "9",
+                        "spacing": "13"
+                      },
+                      "components": [{
+                        "type": "image",
+                        "url": "{{avatar}}",
+                        "style": {
+                          "width": "76",
+                          "height": "76",
+                          "corner_radius": "38"
+                        }
+                      }, {
+                        "type": "label",
+                        "text": "{{name}}",
+                        "style": {
+                          "font": "HelveticaNeue",
+                          "size": "12"
+                        }
+                      }]
                     }
-                  }, {
-                    "type": "label",
-                    "text": "{{location}} >",
-                    "style": {
-                      "color": "#aaaaaa",
-                      "font": "HelveticaNeue",
-                      "size": "11"
-                    }
-                  }]
-                }, {
-                  "type": "space"
-                }, {
-                  "type": "image",
-                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/dotdotdot.png",
-                  "style": {
-                    "width": "20"
                   }
-                }]
+                }
               },
-              "items": [{
-                "style": {
-                  "width": "100%",
-                  "padding": "0"
-                },
-                "type": "image",
-                "url": "{{content}}"
-              }]
-            }
+              {
+                "{{#else}}": {
+                  "header": {
+                    "type": "horizontal",
+                    "style": {
+                      "background": "#ffffff",
+                      "padding": "9",
+                      "spacing": "13"
+                    },
+                    "components": [{
+                      "type": "image",
+                      "url": "{{avatar}}",
+                      "style": {
+                        "width": "38",
+                        "height": "38",
+                        "corner_radius": "19"
+                      }
+                    }, {
+                      "type": "vertical",
+                      "components": [{
+                        "type": "label",
+                        "text": "{{name}}",
+                        "style": {
+                          "font": "HelveticaNeue-Bold",
+                          "size": "12"
+                        }
+                      }, {
+                        "type": "label",
+                        "text": "{{location}} >",
+                        "style": {
+                          "font": "HelveticaNeue",
+                          "size": "11"
+                        }
+                      }]
+                    }, {
+                      "type": "space"
+                    }, {
+                      "type": "image",
+                      "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/dotdotdot.png",
+                      "style": {
+                        "width": "20"
+                      }
+                    }]
+                  },
+                  "items": [{
+                    "style": {
+                      "width": "100%",
+                      "padding": "0"
+                    },
+                    "type": "image",
+                    "url": "{{content}}"
+                  }]
+                }
+              }
+            ]
           },
           "footer": {
             "tabs": {
