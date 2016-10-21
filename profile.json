@@ -59,6 +59,7 @@
                 }
               }, {
                 "type": "button",
+                "text": "Send Confirmation",
                 "background": "#4592d8",
                 "width": "300",
                 "corner_radius": "5",
@@ -67,6 +68,7 @@
                 "color": "#ffffff"
               }, {
                 "type": "label",
+                "text": "Change Email Address",
                 "color": "#4592d8",
                 "font": "HelveticaNeue-Bold",
                 "size": "12"
