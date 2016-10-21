@@ -87,6 +87,7 @@
                         "spacing": "13",
                         "width": "90",
                         "align": "center",
+                        "distribution": "equalspacing",
                         "height": "120"
                       },
                       "components": [{
