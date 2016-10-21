@@ -88,41 +88,37 @@
           "footer": {
             "tabs": {
               "style": {
-                "background": "rgba(255,255,255,0.8)"
+                "background": "rgba(255,255,255,0.8)",
+                "color": "#000000"
               },
               "items": [{
                 "image": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/home.png",
                 "style": {
-                  "height": "21",
-                  "color": "#000000"
+                  "height": "21"
                 },
                 "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/home.json"
               }, {
                 "image": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/search.png",
                 "style": {
-                  "height": "21",
-                  "color": "#000000"
+                  "height": "21"
                 },
                 "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/search.json"
               }, {
                 "image": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/camera.png",
                 "style": {
-                  "height": "21",
-                  "color": "#000000"
+                  "height": "21"
                 },
                 "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/camera.json"
               }, {
                 "image": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/heart.png",
                 "style": {
-                  "height": "21",
-                  "color": "#000000"
+                  "height": "21"
                 },
                 "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/heart.json"
               }, {
                 "image": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/profile.png",
                 "style": {
-                  "height": "21",
-                  "color": "#000000"
+                  "height": "21"
                 },
                 "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/profile.json"
               }]
