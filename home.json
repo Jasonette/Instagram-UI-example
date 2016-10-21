@@ -76,7 +76,7 @@
           "sections": {
             "{{#each posts}}": [
               {
-                "{{#if ('type' in this) && type=='horizontal'}}": {
+                "{{#if ('type' in this) && type=='stories'}}": {
                   "type": "horizontal",
                   "items": {
                     "{{#each items}}": {
