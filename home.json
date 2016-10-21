@@ -84,7 +84,8 @@
                       "style": {
                         "background": "#ffffff",
                         "padding": "9",
-                        "spacing": "13"
+                        "spacing": "13",
+                        "height": "100"
                       },
                       "components": [{
                         "type": "image",
