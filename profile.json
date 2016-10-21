@@ -63,7 +63,7 @@
                 "corner_radius": "5",
                 "font": "HelveticaNeue-Bold",
                 "size": "12",
-                "color': "#ffffff"
+                "color": "#ffffff"
               }, {
                 "type": "label",
                 "color": "#4592d8",
