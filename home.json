@@ -85,6 +85,8 @@
                         "background": "#ffffff",
                         "padding": "9",
                         "spacing": "13",
+                        "width": "90",
+                        "align": "center",
                         "height": "100"
                       },
                       "components": [{
