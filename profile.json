@@ -78,8 +78,8 @@
             "items": [{
             }]
           }, {
-            "{{#each posts}}": {
-              "items": [{
+            "items": {
+              "{{#each posts}}": {
                 "type": "horizontal",
                 "style": {
                   "background": "#ffffff",
@@ -120,15 +120,15 @@
                     "padding_top": "10",
                     "width": "25"
                   }
+                }, {
+                  "style": {
+                    "width": "100%",
+                    "padding": "0"
+                  },
+                  "type": "image",
+                  "url": "{{content}}"
                 }]
-              }, {
-                "style": {
-                  "width": "100%",
-                  "padding": "0"
-                },
-                "type": "image",
-                "url": "{{content}}"
-              }]
+              }
             }
           }],
           "footer": {
