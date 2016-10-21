@@ -76,7 +76,7 @@
                 }]
               },
               "items": [{
-                "type": "vertical",
+                "type": "horizontal",
                 "style": {
                   "width": "100%",
                   "padding": "0"
