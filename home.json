@@ -33,7 +33,9 @@
       "templates": {
         "body": {
           "header": {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/logo.png"
+            "image": {
+              "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/logo.png"
+            }
           },
           "sections": {
             "{{#each posts}}": {
