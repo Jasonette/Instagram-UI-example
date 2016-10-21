@@ -33,7 +33,8 @@
       "templates": {
         "body": {
           "header": {
-            "image": {
+            "title": {
+              "type": "image",
               "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/logo.png"
             }
           },
