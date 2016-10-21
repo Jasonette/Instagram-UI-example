@@ -73,9 +73,6 @@
               }]
             }]
           }, {
-            "items": [{
-            }]
-          }, {
             "items": {
               "{{#each posts}}": {
                 "type": "vertical",
@@ -120,7 +117,7 @@
                       "padding_top": "10",
                       "width": "25"
                     }
-                  }
+                  }]
                 }, {
                   "type": "image",
                   "url": "{{content}}",
