@@ -74,7 +74,7 @@
                     "type": "label",
                     "text": "{{location}}",
                     "style": {
-                      "#color": "#aaaaaa",
+                      "color": "#aaaaaa",
                       "size": "13"
                     }
                   }]
