@@ -53,6 +53,7 @@
                 "text": "Confirm barton.fink@jasonette.com as your email address to help secure your account.",
                 "style": {
                   "font": "HelveticaNeue",
+                  "align": "center",
                   "size": "12",
                   "color": "#959597"
                 }
@@ -80,53 +81,56 @@
           }, {
             "items": {
               "{{#each posts}}": {
-                "type": "horizontal",
-                "style": {
-                  "background": "#ffffff",
-                  "padding": "9",
-                  "spacing": "13"
-                },
+                "type": "vertical",
                 "components": [{
-                  "type": "image",
-                  "url": "{{avatar}}",
+                  "type": "horizontal",
                   "style": {
-                    "width": "38",
-                    "height": "38",
-                    "corner_radius": "19"
-                  }
-                }, {
-                  "type": "vertical",
+                    "background": "#ffffff",
+                    "padding": "9",
+                    "spacing": "13"
+                  },
                   "components": [{
-                    "type": "label",
-                    "text": "{{name}}",
+                    "type": "image",
+                    "url": "{{avatar}}",
                     "style": {
-                      "font": "HelveticaNeue-Bold",
-                      "size": "12"
+                      "width": "38",
+                      "height": "38",
+                      "corner_radius": "19"
                     }
                   }, {
-                    "type": "label",
-                    "text": "{{location}} >",
+                    "type": "vertical",
+                    "components": [{
+                      "type": "label",
+                      "text": "{{name}}",
+                      "style": {
+                        "font": "HelveticaNeue-Bold",
+                        "size": "12"
+                      }
+                    }, {
+                      "type": "label",
+                      "text": "{{location}} >",
+                      "style": {
+                        "font": "HelveticaNeue",
+                        "size": "11"
+                      }
+                    }]
+                  }, {
+                    "type": "space"
+                  }, {
+                    "type": "image",
+                    "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/dotdotdot.png",
                     "style": {
-                      "font": "HelveticaNeue",
-                      "size": "11"
+                      "padding_top": "10",
+                      "width": "25"
                     }
-                  }]
-                }, {
-                  "type": "space"
-                }, {
-                  "type": "image",
-                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/dotdotdot.png",
-                  "style": {
-                    "padding_top": "10",
-                    "width": "25"
                   }
                 }, {
+                  "type": "image",
+                  "url": "{{content}}",
                   "style": {
                     "width": "100%",
                     "padding": "0"
-                  },
-                  "type": "image",
-                  "url": "{{content}}"
+                  }
                 }]
               }
             }
