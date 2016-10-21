@@ -40,6 +40,9 @@
                 "height": "27"
               },
               "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/logo.png"
+            },
+            "menu": {
+              "image": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/box.png"
             }
           },
           "sections": {
