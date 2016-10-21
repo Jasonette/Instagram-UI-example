@@ -76,9 +76,6 @@
             "items": [{
             }]
           }, {
-            "items": [{
-            }]
-          }, {
             "items": {
               "{{#each posts}}": {
                 "type": "vertical",
