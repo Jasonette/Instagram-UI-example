@@ -151,7 +151,8 @@
                       "type": "image",
                       "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/dotdotdot.png",
                       "style": {
-                        "width": "20"
+                        "padding_top": "10",
+                        "width": "25"
                       }
                     }]
                   },
