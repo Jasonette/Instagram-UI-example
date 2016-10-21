@@ -104,7 +104,6 @@
                         "type": "label",
                         "text": "{{name}}",
                         "style": {
-                          "font": "HelveticaNeue",
                           "size": "12"
                         }
                       }]
