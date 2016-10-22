@@ -98,7 +98,7 @@
               "type": "horizontal",
               "style": {
                 "padding": "15",
-                "spacing": "10"
+                "spacing": "20"
               },
               "components": [{
                 "type": "vertical",
@@ -165,7 +165,7 @@
                   "style": {
                     "corner_radius": "3",
                     "height": "30",
-                    "size": "12",
+                    "size": "10",
                     "color": "#000000",
                     "font": "HelveticaNeue-Bold",
                     "background": "#e8e8ea"
