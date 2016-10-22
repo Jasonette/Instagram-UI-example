@@ -2,7 +2,22 @@
   "$jason": {
     "head": {
       "data": {
+        "stats": [{
+          "name": "posts",
+          "number": "568"
+        }, {
+          "name": "followers",
+          "number": "123"
+        }, {
+          "name": "following",
+          "number": "34"
+        }],
         "posts": [{
+          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/barton_avatar.png",
+          "name": "Barton",
+          "location": "Somewhere",
+          "content": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/barton.jpg"
+        }, {
           "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/audrey_avatar.png",
           "name": "Audrey",
           "location": "Somewhere",
@@ -76,6 +91,68 @@
                   "font": "HelveticaNeue-Bold",
                   "size": "11"
                 }
+              }]
+            }]
+          }, {
+            "items": [{
+              "type": "horizontal",
+              "components": [{
+                "type": "vertical",
+                "components": [{
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram/master/images/barton_avatar.png",
+                  "style": {
+                    "width": "80",
+                    "height": "80",
+                    "corner_radius": "40"
+                  }
+                }, {
+                  "type": "label",
+                  "text": "Barton Fink",
+                  "style": {
+                    "font": "HelveticaNeue-Bold",
+                    "size": "12"
+                  }
+                }]
+              }, {
+                "type": "vertical",
+                "components": [{
+                  "type": "horizontal",
+                  "components": {
+                    "{{#each stats}}": {
+                      "type": "vertical",
+                      "style": {
+                        "padding": "10",
+                        "spacing": "2"
+                      },
+                      "components": [{
+                        "type": "label",
+                        "text": "{{number}}",
+                        "style": {
+                          "font": "HelveticaNeue-Bold",
+                          "size": "16"
+                        }
+                      }, {
+                        "type": "label",
+                        "text": "{{name}}",
+                        "style": {
+                          "color": "#bdbdbd",
+                          "size": "10"
+                        }
+                      }]
+                    }
+                  }
+                }, {
+                  "type": "button",
+                  "text": "Edit Profile",
+                  "style": {
+                    "corner_radius": "3",
+                    "height": "50",
+                    "background": "#e8e8ea"
+                  }
+                }, {
+                  "type": "space"
+                }]
               }]
             }]
           }, {
