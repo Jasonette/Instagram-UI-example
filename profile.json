@@ -50,7 +50,7 @@
                 }
               }, {
                 "type": "label",
-                "text": "Confirm barton.fink@jasonette.com as your email address to help secure your account.",
+                "text": "Confirm barton.fink@jasonette.com as your email\naddress to help secure your account.",
                 "style": {
                   "font": "HelveticaNeue",
                   "align": "center",
@@ -62,10 +62,10 @@
                 "text": "Send Confirmation",
                 "style": {
                   "background": "#4592d8",
-                  "width": "300",
-                  "corner_radius": "5",
+                  "width": "250",
+                  "corner_radius": "3",
                   "font": "HelveticaNeue-Bold",
-                  "size": "12",
+                  "size": "11",
                   "color": "#ffffff"
                 }
               }, {
@@ -74,7 +74,7 @@
                 "style": {
                   "color": "#4592d8",
                   "font": "HelveticaNeue-Bold",
-                  "size": "12"
+                  "size": "11"
                 }
               }]
             }]
