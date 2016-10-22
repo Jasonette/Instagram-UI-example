@@ -157,6 +157,7 @@
                   "style": {
                     "corner_radius": "3",
                     "height": "20",
+                    "color": "#000000",
                     "background": "#e8e8ea"
                   }
                 }, {
