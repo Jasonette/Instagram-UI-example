@@ -124,6 +124,10 @@
                 }]
               }, {
                 "type": "vertical",
+                "style": {
+                  "padding": "0",
+                  "spacing": "10"
+                },
                 "components": [{
                   "type": "horizontal",
                   "style": {
@@ -134,7 +138,7 @@
                     "{{#each stats}}": {
                       "type": "vertical",
                       "style": {
-                        "padding": "10",
+                        "padding": "0",
                         "spacing": "0",
                         "align": "center"
                       },
