@@ -5,9 +5,6 @@
     },
     "body": {
       "header": {
-        "style": {
-          "shy": "true"
-        },
         "title": {
           "type": "image",
           "style": {
@@ -24,10 +21,7 @@
           "top": "50%",
           "left": "50%-100",
           "width": "200",
-          "align": "center",
-          "color": "#ebebeb",
-          "font": "HelveticaNeue",
-          "size": "12"
+          "align": "center"
         }
       }],
       "footer": {
