@@ -2,7 +2,7 @@
 
 100% JSON powered Instagram UI, brought to you by [Jasonette](https://www.jasonette.com/beta).
 
-**Note:** This is a UI-only implementation to demonstrate various Jasonette view, layout, components features. [Read the documentation](https://jasonette.github.io/documentation) to learn more about how to turn it into a fully interactive app.
+**Note:** This is a UI-only implementation to demonstrate various Jasonette view, layout, components features. [Read the documentation](https://jasonette.github.io/documentation) to learn how to turn it into a fully interactive app.
 
 ![images/instagram.gif](images/instagram.gif)
 
