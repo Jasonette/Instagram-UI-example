@@ -96,6 +96,10 @@
           }, {
             "items": [{
               "type": "horizontal",
+              "style": {
+                "padding": "15",
+                "spacing": "10"
+              },
               "components": [{
                 "type": "vertical",
                 "components": [{
@@ -110,6 +114,7 @@
                   "type": "label",
                   "text": "Barton Fink",
                   "style": {
+                    "align": "center",
                     "font": "HelveticaNeue-Bold",
                     "size": "12"
                   }
@@ -118,12 +123,16 @@
                 "type": "vertical",
                 "components": [{
                   "type": "horizontal",
+                  "style": {
+                    "distribution": "equalsize"
+                  },
                   "components": {
                     "{{#each stats}}": {
                       "type": "vertical",
                       "style": {
                         "padding": "10",
-                        "spacing": "2"
+                        "spacing": "0",
+                        "align": "center"
                       },
                       "components": [{
                         "type": "label",
@@ -147,7 +156,7 @@
                   "text": "Edit Profile",
                   "style": {
                     "corner_radius": "3",
-                    "height": "50",
+                    "height": "20",
                     "background": "#e8e8ea"
                   }
                 }, {
