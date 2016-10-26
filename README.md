@@ -9,7 +9,7 @@
 # How to use
 
 1. Download [Jasonette](http://www.jasonette.com), unzip, and then run `Setup` command in the root folder. That will walk you through your project setup.
-2. When asked for a JSON url, enter [https://raw.githubusercontent.com/Jasonette/Instagram/master/home.json](https://raw.githubusercontent.com/Jasonette/Instagram/master/home.json)
+2. When asked for a JSON url, enter [https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json](https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json)
 3. When the setup finishes, it should automatically open up XCode. Connect your phone and press play to run.
 
 **There's a much better tutorial over at [the documentation page](https://jasonette.github.io/documentation/)**
