@@ -1,43 +1,54 @@
 {
   "$jason": {
     "head": {
+      "title": "Profile",
       "data": {
-        "stats": [{
-          "name": "posts",
-          "number": "568"
-        }, {
-          "name": "followers",
-          "number": "123"
-        }, {
-          "name": "following",
-          "number": "34"
-        }],
-        "posts": [{
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
-          "name": "Barton",
-          "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton.jpg"
-        }, {
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey_avatar.png",
-          "name": "Audrey",
-          "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey.jpg"
-        }, {
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss_avatar.png",
-          "name": "Audrey",
-          "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss.jpg"
-        }, {
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet_avatar.png",
-          "name": "Chet!",
-          "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet.jpg"
-        }, {
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl_avatar.png",
-          "name": "Girl",
-          "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl.jpg"
-        }]
+        "stats": [
+          {
+            "name": "posts",
+            "number": "568"
+          },
+          {
+            "name": "followers",
+            "number": "123"
+          },
+          {
+            "name": "following",
+            "number": "34"
+          }
+        ],
+        "posts": [
+          {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
+            "name": "Barton",
+            "location": "Somewhere",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton.jpg"
+          },
+          {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey_avatar.png",
+            "name": "Audrey",
+            "location": "Somewhere",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey.jpg"
+          },
+          {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss_avatar.png",
+            "name": "Audrey",
+            "location": "Somewhere",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss.jpg"
+          },
+          {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet_avatar.png",
+            "name": "Chet!",
+            "location": "Somewhere",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet.jpg"
+          },
+          {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl_avatar.png",
+            "name": "Girl",
+            "location": "Somewhere",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl.jpg"
+          }
+        ]
       },
       "templates": {
         "body": {
@@ -47,231 +58,279 @@
               "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/settings.png"
             }
           },
-          "sections": [{
-            "items": [{
-              "type": "vertical",
-              "style": {
-                "align": "center",
-                "padding": "20",
-                "spacing": "10",
-                "background": "#fbfbfb"
-              },
-              "components": [{
-                "type": "label",
-                "text": "Help Secure Your Account",
-                "style": {
-                  "font": "HelveticaNeue-Bold",
-                  "size": "12"
-                }
-              }, {
-                "type": "label",
-                "text": "Confirm barton.fink@jasonette.com as your email\naddress to help secure your account.",
-                "style": {
-                  "font": "HelveticaNeue",
-                  "align": "center",
-                  "size": "12",
-                  "color": "#959597"
-                }
-              }, {
-                "type": "button",
-                "text": "Send Confirmation",
-                "style": {
-                  "background": "#4592d8",
-                  "width": "250",
-                  "corner_radius": "3",
-                  "font": "HelveticaNeue-Bold",
-                  "size": "11",
-                  "color": "#ffffff"
-                }
-              }, {
-                "type": "label",
-                "text": "Change Email Address",
-                "style": {
-                  "color": "#4592d8",
-                  "font": "HelveticaNeue-Bold",
-                  "size": "11"
-                }
-              }]
-            }]
-          }, {
-            "items": [{
-              "type": "horizontal",
-              "style": {
-                "padding": "15",
-                "spacing": "20"
-              },
-              "components": [{
-                "type": "vertical",
-                "style": {
-                  "spacing": "10"
-                },
-                "components": [{
-                  "type": "image",
-                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
+          "sections": [
+            {
+              "items": [
+                {
+                  "type": "vertical",
                   "style": {
-                    "width": "80",
-                    "height": "80",
-                    "corner_radius": "40"
-                  }
-                }, {
-                  "type": "label",
-                  "text": "Barton Fink",
-                  "style": {
-                    "align": "left",
-                    "font": "HelveticaNeue-Bold",
-                    "size": "12"
-                  }
-                }]
-              }, {
-                "type": "vertical",
-                "style": {
-                  "padding": "0",
-                  "spacing": "10"
-                },
-                "components": [{
+                    "align": "center",
+                    "padding": "20",
+                    "spacing": "10",
+                    "background": "#fbfbfb"
+                  },
+                  "components": [
+                    {
+                      "type": "label",
+                      "text": "Help Secure Your Account",
+                      "style": {
+                        "font": "HelveticaNeue-Bold",
+                        "align": "center",
+                        "size": "12"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "Confirm barton.fink@jasonette.com as your email\naddress to help secure your account.",
+                      "style": {
+                        "font": "HelveticaNeue",
+                        "align": "center",
+                        "size": "12",
+                        "color": "#959597"
+                      }
+                    },
+                    {
+                      "type": "button",
+                      "text": "Send Confirmation",
+                      "style": {
+                        "background": "#4592d8",
+                        "width": "250",
+                        "corner_radius": "3",
+                        "font": "HelveticaNeue-Bold",
+                        "size": "11",
+                        "color": "#ffffff"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "text": "Change Email Address",
+                      "style": {
+                        "color": "#4592d8",
+                        "font": "HelveticaNeue-Bold",
+                        "size": "11",
+                        "align": "center"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "items": [
+                {
                   "type": "horizontal",
                   "style": {
-                    "distribution": "equalsize",
-                    "padding": "0"
+                    "padding": "15",
+                    "spacing": "20"
                   },
-                  "components": {
-                    "{{#each stats}}": {
+                  "components": [
+                    {
+                      "type": "vertical",
+                      "style": {
+                        "width": "80",
+                        "spacing": "10"
+                      },
+                      "components": [
+                        {
+                          "type": "image",
+                          "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
+                          "style": {
+                            "width": "80",
+                            "height": "80",
+                            "corner_radius": "40"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "Barton Fink",
+                          "style": {
+                            "align": "left",
+                            "font": "HelveticaNeue-Bold",
+                            "size": "12"
+                          }
+                        }
+                      ]
+                    },
+                    {
                       "type": "vertical",
                       "style": {
                         "padding": "0",
-                        "spacing": "0",
-                        "align": "center"
+                        "spacing": "10"
                       },
-                      "components": [{
-                        "type": "label",
-                        "text": "{{number}}",
-                        "style": {
-                          "font": "HelveticaNeue-Bold",
-                          "size": "16"
+                      "components": [
+                        {
+                          "type": "horizontal",
+                          "style": {
+                            "distribution": "equalsize",
+                            "padding": "0"
+                          },
+                          "components": {
+                            "{{#each stats}}": {
+                              "type": "vertical",
+                              "style": {
+                                "padding": "0",
+                                "spacing": "0",
+                                "align": "center"
+                              },
+                              "components": [
+                                {
+                                  "type": "label",
+                                  "text": "{{number}}",
+                                  "style": {
+                                    "font": "HelveticaNeue-Bold",
+                                    "align": "center",
+                                    "size": "16"
+                                  }
+                                },
+                                {
+                                  "type": "label",
+                                  "text": "{{name}}",
+                                  "style": {
+                                    "color": "#bdbdbd",
+                                    "align": "center",
+                                    "size": "10"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "text": "Edit Profile",
+                          "style": {
+                            "corner_radius": "3",
+                            "height": "30",
+                            "size": "11",
+                            "color": "#000000",
+                            "font": "HelveticaNeue-Bold",
+                            "background": "#e8e8ea"
+                          }
+                        },
+                        {
+                          "type": "space"
                         }
-                      }, {
-                        "type": "label",
-                        "text": "{{name}}",
-                        "style": {
-                          "color": "#bdbdbd",
-                          "size": "10"
-                        }
-                      }]
+                      ]
                     }
-                  }
-                }, {
-                  "type": "button",
-                  "text": "Edit Profile",
+                  ]
+                }
+              ]
+            },
+            {
+              "items": {
+                "{{#each posts}}": {
+                  "type": "vertical",
                   "style": {
-                    "corner_radius": "3",
-                    "height": "30",
-                    "size": "11",
-                    "color": "#000000",
-                    "font": "HelveticaNeue-Bold",
-                    "background": "#e8e8ea"
-                  }
-                }, {
-                  "type": "space"
-                }]
-              }]
-            }]
-          }, {
-            "items": {
-              "{{#each posts}}": {
-                "type": "vertical",
-                "style": {
-                  "padding": "0"
-                },
-                "components": [{
-                  "type": "horizontal",
-                  "style": {
-                    "background": "#ffffff",
-                    "padding": "9",
-                    "spacing": "13"
-                  },
-                  "components": [{
-                    "type": "image",
-                    "url": "{{avatar}}",
-                    "style": {
-                      "width": "38",
-                      "height": "38",
-                      "corner_radius": "19"
-                    }
-                  }, {
-                    "type": "vertical",
-                    "components": [{
-                      "type": "label",
-                      "text": "{{name}}",
-                      "style": {
-                        "font": "HelveticaNeue-Bold",
-                        "size": "12"
-                      }
-                    }, {
-                      "type": "label",
-                      "text": "{{location}} >",
-                      "style": {
-                        "font": "HelveticaNeue",
-                        "size": "11"
-                      }
-                    }]
-                  }, {
-                    "type": "space"
-                  }, {
-                    "type": "image",
-                    "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/dotdotdot.png",
-                    "style": {
-                      "padding_top": "10",
-                      "width": "25"
-                    }
-                  }]
-                }, {
-                  "type": "image",
-                  "url": "{{content}}",
-                  "style": {
-                    "width": "100%",
                     "padding": "0"
-                  }
-                }]
+                  },
+                  "components": [
+                    {
+                      "type": "horizontal",
+                      "style": {
+                        "background": "#ffffff",
+                        "padding": "9",
+                        "spacing": "13"
+                      },
+                      "components": [
+                        {
+                          "type": "image",
+                          "url": "{{avatar}}",
+                          "style": {
+                            "width": "38",
+                            "height": "38",
+                            "corner_radius": "19"
+                          }
+                        },
+                        {
+                          "type": "vertical",
+                          "components": [
+                            {
+                              "type": "label",
+                              "text": "{{name}}",
+                              "style": {
+                                "font": "HelveticaNeue-Bold",
+                                "size": "12"
+                              }
+                            },
+                            {
+                              "type": "label",
+                              "text": "{{location}} >",
+                              "style": {
+                                "font": "HelveticaNeue",
+                                "size": "11"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "space"
+                        },
+                        {
+                          "type": "image",
+                          "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/dotdotdot.png",
+                          "style": {
+                            "padding_top": "10",
+                            "width": "25"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "url": "{{content}}",
+                      "style": {
+                        "width": "100%",
+                        "padding": "0"
+                      }
+                    }
+                  ]
+                }
               }
             }
-          }],
+          ],
           "footer": {
             "tabs": {
               "style": {
                 "background": "rgba(255,255,255,0.8)",
                 "color": "#000000"
               },
-              "items": [{
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/home.png",
-                "style": {
-                  "height": "21"
+              "items": [
+                {
+                  "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/home.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/search.png",
-                "style": {
-                  "height": "21"
+                {
+                  "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/search.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/search.json"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/search.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/camera.png",
-                "style": {
-                  "height": "21"
+                {
+                  "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/camera.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/camera.json"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/camera.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/heart.png",
-                "style": {
-                  "height": "21"
+                {
+                  "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/heart.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/heart.json"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/heart.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/profile.png",
-                "style": {
-                  "height": "21"
-                },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/profile.json"
-              }]
+                {
+                  "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/profile.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/profile.json"
+                }
+              ]
             }
           }
         }
