@@ -4,7 +4,9 @@
 
 **Note:** This is a UI-only implementation to demonstrate various Jasonette view, layout, components features. [Read the documentation](https://jasonette.github.io/documentation) to learn how to turn it into a fully interactive app.
 
-![images/instagram.gif](images/instagram.gif)
+iOS                                             | Android
+------------------------------------------------|------------------------------------------------------------
+![images/instagram.gif](images/instagram.gif)   |![images/instagram-android.gif](images/instagram-android.gif)
 
 # How to use
 
